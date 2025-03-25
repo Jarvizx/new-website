@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   const randomImage = Math.random() < 0.5 ? 'bg-pain-visible-1.jpeg' : 'bg-pain-visible-2.jpeg';
 
